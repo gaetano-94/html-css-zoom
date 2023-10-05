@@ -9,10 +9,40 @@ RESET
 /*
 RESET
 */
+
+body {
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /* HEADER */
 header {
-  background-color: red;
+  background-color: black;
   height: 50px;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  position: relative;
+}
+
+.speaker-view,
+.icona-x {
+  background-color: #4a4a4a;
+  padding: 4px 4px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.speaker-view {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+
+.icona-x {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 /* /HEADER */
 
