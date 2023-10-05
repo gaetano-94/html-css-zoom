@@ -89,8 +89,25 @@ img {
 /* /MAIN */
 
 /* FOOTER */
-footer {
+.footer-container {
   background-color: #222222;
   height: 60px;
+  color: white;
 }
+
+.icone-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.icone-centrali {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
 /* /FOOTER */
