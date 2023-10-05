@@ -9,3 +9,45 @@ RESET
 /*
 RESET
 */
+/* HEADER */
+header {
+  background-color: red;
+  height: 50px;
+}
+/* /HEADER */
+
+/* MAIN */
+main {
+  height: calc(100vh - 130px);
+  overflow-y: scroll;
+}
+
+.main-container {
+  max-width: 1750px;
+  margin: 0 auto;
+  padding: 40px 80px;
+}
+
+.grills {
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grill {
+  width: calc(100% / 7);
+
+  /* rimuovere questi valori */
+  border: 2px solid black;
+  background-color: aqua;
+  height: 100px;
+}
+
+/* /MAIN */
+
+/* FOOTER */
+footer {
+  background-color: green;
+  height: 80px;
+}
+/* /FOOTER */
